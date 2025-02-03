@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root{
-    --color-light:#fafcfc0d;
+    --color-light:rgba(250, 252, 252, 0.788);
 }
 
 @theme {
@@ -10,7 +10,7 @@
     --color-yellow: #faca10;
     --color-black: #1E1E1E;
     --color-white: #FFFFFF;
-    --color-grey: #FBFBFB;
+    --color-grey: #F2F2F2;
     --color-text-black:#1e1e1e;
     --color-light:#fafcfc0d;
     
@@ -44,6 +44,27 @@
 }
 
 
+
+@layer components{
+    .bannerBackground{
+        position:relative;
+        z-index:1;
+    }
+
+    .bannerBackground::after{
+        position:absolute;
+        content:"";
+        width:100%;
+        height:100%;
+        background-color:rgba(250, 252, 252, 0.644);
+        top:0;
+        left:0;
+        z-index:-1;
+
+    }
+
+}
+
 @layer components{
     .menu{
         position:relative;
@@ -58,7 +79,7 @@
         width: 0;
         height: 4px;
         background-color:#faca10;
-        transition:all linear .3s;
+        transition:all linear .5s;
     }
 
 
@@ -67,3 +88,66 @@
     }
 
 }
+
+
+@layer components{
+    .btn{
+        position:relative;
+    }
+
+    .btn::after{
+        position:absolute;
+        content:"";
+        width: 100%;
+        height: 100%;
+        background-color:#1E1E1E;
+        top: 0px;
+        left:100%;
+        border-radius:10px;
+        transition:all linear .3s;
+        
+        visibility: hidden;
+
+
+    }
+
+
+    .btn:hover::after{
+        visibility: visible;
+        left:0;
+        
+    }
+
+}
+
+
+@layer componentes{
+   
+
+    .textUnderline{
+        position:relative;
+
+    }
+
+    .textUnderline::before{
+
+        position:absolute;
+        content:"";
+        bottom:0%;
+        width:100%;
+        height:7%;
+        background-color:#faca10;
+        transition:all linear .3s;
+        
+        
+
+    }
+
+    .textUnderline:hover::before{
+        width:0%;
+       
+    }
+}
+
+
+

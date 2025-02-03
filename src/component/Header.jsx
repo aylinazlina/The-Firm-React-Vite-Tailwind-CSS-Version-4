@@ -30,7 +30,8 @@ const Header = () => {
     ];
 
     return (
-        <div className='mt-[24px] flex justify-between items-center'>
+        <div className='container'>
+            <div className='mt-[24px] flex justify-between items-center'>
             <picture>
 
                 <img src={logo} alt='{logo}' />
@@ -54,8 +55,9 @@ const Header = () => {
             </div>
 
             <Button btnContent="Get in Touch"
-             btnDesign ={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer"}
+             btnDesign ={"btn bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer"}
             />
+        </div>
         </div>
     )
 }

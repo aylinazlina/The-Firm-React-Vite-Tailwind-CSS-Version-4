@@ -8,8 +8,8 @@ import banner from "../assets/banner.png"
 const Banner = () => {
     return (
 
-        <div className='bg-cover bg-center bg-no-repeat z-10 bg-[url(C:\Users\DeLL\Desktop\react_my_firm\src\assets\bannerbackground.png)] 
-        relative after:absolute after:content-[" "] after:w-full after:h-full left-0 top-0 after:bg-light-500 after:-z-10' >
+        <div className='bg-cover bg-center bg-no-repeat bg-[url(C:\Users\DeLL\Desktop\react_my_firm\src\assets\bannerbackground.png)] 
+        bannerBackground' >
             
             <div className="container">
                <div className='BannerWrapper flex items-center '>
@@ -20,7 +20,7 @@ const Banner = () => {
                         the industry's standard dummy.</p>
 
                     <Button btnContent="Get in Touch"
-                        btnDesign={"bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer mt-[32px] px-[21px] py-[12px] hover:bg-red-500"}
+                        btnDesign={"btn bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer mt-[32px] px-[21px] py-[12px]"}
                     />
                 </div>
 
