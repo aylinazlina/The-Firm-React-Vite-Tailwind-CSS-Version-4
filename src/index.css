@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root{
-    --color-light:rgba(250, 252, 252, 0.788);
+    --color-light:#fafcfcc9;
 }
 
 @theme {
@@ -100,7 +100,7 @@
         content:"";
         width: 100%;
         height: 100%;
-        background-color:#1E1E1E;
+        background-color:rgba(30, 30, 30, 0.783);
         top: 0px;
         left:100%;
         border-radius:10px;
@@ -146,6 +146,43 @@
     .textUnderline:hover::before{
         width:0%;
        
+    }
+}
+
+@layer component{
+    .Design{
+        position: relative;
+    }
+
+    .Design::after{
+        position:absolute;
+        content:"";
+        width:50px;
+        height:5px;
+        background-color:white;
+        left:-26%;
+        top:48%;
+
+
+    }
+
+    .Design::before{
+        position:absolute;
+        content:"";
+        width: 20px;
+        height: 20px;
+        background-color:white;
+        left:-60px;
+        top:35%;
+        border-radius:50%;
+    }
+
+    .Design:hover::after{
+        background-color: #faca10;
+    }
+
+    .Design:hover::before{
+        background-color:#faca10;
     }
 }
 

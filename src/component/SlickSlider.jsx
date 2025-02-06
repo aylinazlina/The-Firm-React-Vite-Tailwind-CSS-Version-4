@@ -107,9 +107,9 @@ const Partner = () => {
             {item.map((data) => (
 
               <div className='p-6'>
-                <div className='bg-grey p-8 rounded-2xl flex justify-center items-center hover:bg-yellow '>
+                <div className='bg-grey p-8 rounded-2xl flex justify-center items-center cursor-pointer'>
 
-                  <img src={data.img} className='w-[120px] h-[120px]  object-contain' />
+                  <img src={data.img} className='w-[120px] h-[120px]  object-contain grayscale hover:grayscale-0' />
 
                 </div>
               </div>
