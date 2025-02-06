@@ -24,7 +24,7 @@ const Choose = () => {
                 <div className='Bottom bg-white w-full h-[413px] rounded-2xl'>
                     <div className='BottomWrapper flex justify-between'>
 
-                        <div className='bottomLeftWrapper w-[556px] h-[291px] rounded-2xl bg-amber-300  mt-13 ml-[26px]'>
+                        <div className='bottomLeftWrapper w-[556px] h-[291px] rounded-2xl shadow-xl  mt-13 ml-[26px]'>
                             <picture>
                                 <img src={ChooseImage} className='rounded-lg mt-4 ml-3' />
                             </picture>

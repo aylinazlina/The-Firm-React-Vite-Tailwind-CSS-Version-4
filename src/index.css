@@ -121,7 +121,7 @@
 }
 
 
-@layer componentes{
+@layer components{
    
 
     .textUnderline{
@@ -148,7 +148,7 @@
        
     }
 }
-
+/* ============= choose ============== */
 @layer component{
     .Design{
         position: relative;
@@ -184,6 +184,65 @@
     .Design:hover::before{
         background-color:#faca10;
     }
+}
+
+/* ========== arrow icon research =========== */
+@layer component{
+
+    .nextArrow{
+        font-size:25px;
+        color:black;
+        width: 30px;
+        height:27px;
+        font-weight: 600;
+        background-color:#fdefb7;
+        border-bottom-right-radius: 50%;
+        border-top-right-radius: 50%;
+        top: 12%;
+        left:6.8%;
+        position:absolute;
+        cursor: pointer;
+        border:1px solid white;
+
+    }
+    .nextArrow:hover{
+        background-color: #FACA10;
+    }
+
+    .prevArrow{
+        font-size: 25px;
+        color:black;
+        font-weight: 600;
+        width: 30px;
+        height:27px;
+        background-color:#fdefb7;
+        border-bottom-left-radius: 50%;
+        border-top-left-radius: 50%;
+        top:12%;
+        position:absolute;
+        left:1%;
+        cursor: pointer;
+        z-index:1;
+        border: 1px solid white;
+        
+    }
+
+    .prevArrow:hover{
+        background-color:#FACA10;
+    }
+
+   
+    .bottomCircle{
+        position:absolute;
+        width:200px;
+        height:200px;
+        background-color:#fdefb7;
+        border-radius:50%;
+        left:-20%;
+        bottom:-20%;
+      
+    }
+
 }
 
 

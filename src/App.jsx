@@ -6,6 +6,7 @@ import SlickSlider from './component/SlickSlider'
 import Frustration from "./component/Frustration"
 import Bussiness from "./component/Bussiness"
 import Choose from "./component/Choose"
+import Research from "./component/Research"
 
 const App = () => {
 
@@ -20,6 +21,7 @@ const App = () => {
       <Frustration/>
       <Bussiness/>
       <Choose/>
+      <Research/>
 
 
     </div>
