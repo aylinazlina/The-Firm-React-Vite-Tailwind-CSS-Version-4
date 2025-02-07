@@ -6,7 +6,7 @@ const Frustration = () => {
     return (
 
         <div className="bg-[#FBFBFB] p-24">
-            <div className='container bg-amber-300 w-full'>
+            <div className='container'>
 
                 <div className='flex'>
                     <div className='LeftWrapper'>

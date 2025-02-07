@@ -7,6 +7,7 @@ import Frustration from "./component/Frustration"
 import Bussiness from "./component/Bussiness"
 import Choose from "./component/Choose"
 import Research from "./component/Research"
+import Touch from "./component/Touch"
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
       <Bussiness/>
       <Choose/>
       <Research/>
+      <Touch/>
 
 
     </div>

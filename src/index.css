@@ -247,3 +247,14 @@
 
 
 
+@layer component{
+    .ImageCard{
+        position:relative;
+    }
+    .touchCard{
+        position:absolute;
+        top:50%;
+        left:12%;
+        z-index:1;
+    }
+}

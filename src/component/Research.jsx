@@ -80,7 +80,7 @@ const Research = () => {
   ]
 
   return (
-    <div className='bg-white p-24'>
+    <div className='bg-white mt-24 mb-24'>
       <div className="container">
 
         <Heading firstText="Our Research & Case" secondText="Studies" className={"font-nunito font-black text-[44px] text-text-black leading-[134%] text-center mb-7"} />
