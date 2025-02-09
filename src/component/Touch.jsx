@@ -5,7 +5,7 @@ import Button from "../component/commoncomponent/Button";
 const Touch = () => {
   return (
     <div className="">
-      <div className="pt-24 pb-24">
+      <div className="pt-24 pb-100">
         <div className="ImageCard">
           <picture>
             <img src={touchImage} className="w-[1442px] h-[396px] " />

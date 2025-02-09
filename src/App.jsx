@@ -8,6 +8,7 @@ import Bussiness from "./component/Bussiness"
 import Choose from "./component/Choose"
 import Research from "./component/Research"
 import Touch from "./component/Touch"
+import Testimonial from './component/Testimonial'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
       <Choose/>
       <Research/>
       <Touch/>
+      <Testimonial/>
 
 
     </div>
