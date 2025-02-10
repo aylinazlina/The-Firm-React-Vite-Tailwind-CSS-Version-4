@@ -24,7 +24,7 @@ const Touch = () => {
                   <label className="touchName font-nunito font-bold text-gray-400">Name</label>
                   <input
                     type="text"
-                    className="border-b-2  w-[353px] inline-block"
+                    className="border-b-2  w-[353px] inline-block" placeholder="Enter your name"
                   />
                 </div>
 
@@ -32,7 +32,7 @@ const Touch = () => {
                   <label className="touchEmail font-nunito font-bold text-gray-400">Email</label>
                   <input
                     type="email"
-                    className="border-b-2 w-[353px] inline-block"
+                    className="border-b-2 w-[353px] inline-block" placeholder="Enter your email"
                   />
                 </div>
               </div>
@@ -41,8 +41,8 @@ const Touch = () => {
                 <div className="PhoneWrapper flex flex-col">
                   <label className="touchPhone font-nunito font-bold text-gray-400">Phone</label>
                   <input
-                    type="number"
-                    className="border-b-2 w-[353px] inline-block"
+                    type="phone"
+                    className="border-b-2 w-[353px] inline-block" placeholder="Enter your phone number"
                   />
                 </div>
 
@@ -50,7 +50,7 @@ const Touch = () => {
                   <label className="touchSubject font-nunito font-bold text-gray-400">Subject</label>
                   <input
                     type="option"
-                    className="border-b-2 w-[353px] inline-block"
+                    className="border-b-2 w-[353px] inline-block" placeholder="Choose your subject"
                   />
                 </div>
               </div>
@@ -58,7 +58,7 @@ const Touch = () => {
               <Button
                 btnContent="Submit"
                 btnDesign={
-                  "bg-[#FACA10] px-10 py-3 rounded-lg font-nunito font-black text-[18px] leading-[25px] text-white hover:bg-black mt-20 ml-[40%]"
+                  "bg-[#FACA10] px-10 py-3 rounded-lg font-nunito font-black text-[18px] leading-[25px] text-white cursor-pointer hover:bg-black mt-20 ml-[40%]"
                 }
               />
             </div>

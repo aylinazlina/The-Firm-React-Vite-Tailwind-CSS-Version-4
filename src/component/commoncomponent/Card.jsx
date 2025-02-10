@@ -21,7 +21,7 @@ const Card = ({image,cardTitle,cardtext,profile}) => {
    <p>28,Aug 2020, 09:48:00</p>
    </div>
       <Button btnContent="Read More"
-        btnDesign={"btn bg-yellow font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer m-4"}
+        btnDesign={"btn bg-black font-bold font-nunito text-white text-[20px] p-3 rounded-lg cursor-pointer m-4"}
       />
     </div>
 

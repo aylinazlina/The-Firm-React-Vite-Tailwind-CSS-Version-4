@@ -9,6 +9,7 @@ import Choose from "./component/Choose"
 import Research from "./component/Research"
 import Touch from "./component/Touch"
 import Testimonial from './component/Testimonial'
+import Footer from './component/Footer'
 
 const App = () => {
 
@@ -26,6 +27,7 @@ const App = () => {
       <Research/>
       <Touch/>
       <Testimonial/>
+      <Footer/>
 
 
     </div>

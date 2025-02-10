@@ -38,7 +38,7 @@ const Choose = () => {
                                 <Heading secondText="Branding" className={"font-bold font-nunito text-[30px] leading-[41px] pb-5"} />
                             </div>
                             <p className='max-w-[500px] font-lora font-normal text-[18px] leading-[176%] pb-7 pl-19'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                            <Button btnContent="Read More" btnDesign={"bg-black px-7 py-4 rounded-lg font-nunito font-black text-white leading-[25px] text-[18px] hover:bg-yellow ml-19"} />
+                            <Button btnContent="Read More" btnDesign={"bg-black px-7 py-4 rounded-lg font-nunito font-black text-white leading-[25px] text-[18px] cursor-pointer hover:bg-yellow ml-19"} />
                         </div>
 
                     </div>
